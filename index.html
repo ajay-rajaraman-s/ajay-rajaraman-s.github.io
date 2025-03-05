@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajay Rajaraman Subramanian</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,27 +19,27 @@
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #222;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
+            padding: 40px 0;
             text-align: center;
         }
         header h1 {
             margin: 0;
+            font-size: 2.5em;
         }
         .profile {
             text-align: center;
-            padding: 20px;
+            padding: 40px 0;
         }
         .profile img {
-            width: 300px; /* Adjust the size as needed */
-            height: auto; /* Maintain aspect ratio */
-            border-radius: 0; /* Remove circular shape */
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 4px solid #0779e4;
         }
         .section {
-            padding: 20px;
+            padding: 40px;
             background: white;
             margin: 20px 0;
             border-radius: 10px;
@@ -46,18 +47,40 @@
         }
         h2 {
             color: #0779e4;
+            border-bottom: 2px solid #0779e4;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .social-links {
+            text-align: center;
+            padding: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: #0779e4;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            color: #0056b3;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Ajay Rajaraman Subramanian</h1>
-        <p>PhD Candidate at Georgia Tech</p>
+        <p>PhD Candidate | 3D Computer Vision | Medical Image Processing</p>
     </header>
     
     <div class="container">
         <div class="profile">
-            <img src="Ajay photo.jpg" alt="Ajay Rajaraman">
+            <img src="Ajay_photo.jpg" alt="Ajay Rajaraman">
+        </div>
+        
+        <div class="social-links">
+            <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
         
         <div class="section">
@@ -67,34 +90,25 @@
         
         <div class="section">
             <h2>Education</h2>
-            <p><strong>PhD in Electrical and Computer Engineering</strong>, Georgia Institute of Technology (2024 - Present)</p>
-            <p><strong>MS in Biomedical Engineering</strong>, Georgia Institute of Technology (2022 - 2024)</p>
-        </div>
-        
-        <div class="section">
-            <h2>Skills</h2>
-            <p>Computer Vision, 3D Computer Vision, Machine Learning, Image Processing, Medical Image Processing, Deep Learning</p>
+            <p><strong>PhD in Electrical and Computer Engineering</strong>, Georgia Tech (2024 - Present)</p>
+            <p><strong>MS in Biomedical Engineering</strong>, Georgia Tech (2022 - 2024)</p>
         </div>
         
         <div class="section">
             <h2>Experience</h2>
-            <h3>OXOS Medical - Machine Learning Intern (May 2023 – August 2023)</h3>
-            <p>Designed and implemented a view confirmation algorithm for hand key points detection using X-ray images.</p>
-            
-            <h3>Georgia Institute of Technology - Graduate Research Assistant (August 2022 - Present)</h3>
-            <p>Assessing biochemical recurrence in prostate cancer by analyzing 3D collagen fiber orientation using machine learning.</p>
-            
-            <h3>Indian Institute of Science - Research and Development Intern (March 2022 - July 2022)</h3>
-            <p>Developed a low-cost, handheld Portable Fundus camera for detecting diabetic retinopathy.</p>
-            
-            <h3>MetFlux Research (IIT Bombay) - Computer Vision Intern (June 2021 - November 2021)</h3>
-            <p>Developed a mobile-based solution for non-invasive health monitoring via facial video analysis.</p>
+            <p><strong>Machine Learning Intern</strong> - OXOS Medical (May 2023 – Aug 2023)</p>
+            <p><strong>Graduate Research Assistant</strong> - Georgia Tech (Aug 2022 - Present)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <p>Computer Vision, 3D Computer Vision, Machine Learning, Image Processing, Deep Learning</p>
         </div>
         
         <div class="section">
             <h2>Publications</h2>
-            <p>[1] Deep-UV microscopy for analysis of bone marrow aspirate adequacy</p>
-            <p>[2] A new computerized method of detecting leukemia, Turkish Online Journal of Qualitative Inquiry</p>
+            <p>[1] Deep-UV microscopy for bone marrow aspirate analysis</p>
+            <p>[2] Computerized detection of leukemia, Turkish Online Journal of Qualitative Inquiry</p>
         </div>
     </div>
 </body>
