@@ -1,17 +1,67 @@
 body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-}
-
-h1 {
-  color: #2c3e50;
-  text-align: center;
-}
-
-p {
-  font-size: 18px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
   line-height: 1.6;
+}
+
+.header {
+  position: relative;
   text-align: center;
+  padding: 100px 20px;
+  background: #f7f7f7;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1.25em;
+  color: #666;
+}
+
+.bio {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.feature {
+  margin: 60px 0;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.skills > div {
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.skills > div h3 {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+footer {
+  background: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.9em;
 }
