@@ -1,67 +1,54 @@
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', sans-serif;
-  color: #333;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #fafafa;
   line-height: 1.6;
+  padding: 20px;
 }
 
-.header {
-  position: relative;
+.hero {
   text-align: center;
-  padding: 100px 20px;
-  background: #f7f7f7;
+  padding-top: 60px;
 }
 
-.header h1 {
-  margin: 0;
-  font-size: 3em;
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
 }
 
-.header p {
-  margin-top: 10px;
+.hero h1 {
+  margin: 20px 0 10px;
+  font-size: 2.5em;
+}
+
+.tagline {
+  color: #555;
   font-size: 1.25em;
-  color: #666;
 }
 
-.bio {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
-  text-align: center;
+.bio, .details, .updates {
+  max-width: 700px;
+  margin: 40px auto;
 }
 
-.feature {
-  margin: 60px 0;
-}
-
-.feature img {
+.feature-image img {
   width: 100%;
-  height: auto;
+  max-width: 700px;
   display: block;
+  margin: 20px auto;
   border-radius: 8px;
 }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 40px 0;
-}
-
-.skills > div {
-  width: 150px;
-  margin: 10px;
-  text-align: center;
-}
-
-.skills > div h3 {
-  margin-top: 10px;
-  font-size: 1.1em;
+.details ul, .updates ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 footer {
-  background: #f7f7f7;
-  padding: 40px 20px;
   text-align: center;
+  margin-top: 60px;
   font-size: 0.9em;
+  color: #555;
 }
