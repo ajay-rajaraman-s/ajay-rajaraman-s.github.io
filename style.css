@@ -41,6 +41,11 @@ header {
 
 .bg-photo {
   margin-top: 30px;
-  max-width: 80%;
+  max-width: 80%;   /* shrink relative to screen size */
+  max-height: 500px; /* cap vertical size */
   border-radius: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover; /* crop nicely if needed */
 }
