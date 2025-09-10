@@ -1,54 +1,46 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #222;
-  background: #fafafa;
-  line-height: 1.6;
-  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .hero {
   text-align: center;
-  padding-top: 60px;
+  margin-top: 20px;
 }
 
-.avatar {
-  width: 140px;
-  height: 140px;
+.profile-photo {
+  width: 200px;
   border-radius: 50%;
+  border: 4px solid #222;
 }
 
-.hero h1 {
-  margin: 20px 0 10px;
-  font-size: 2.5em;
-}
-
-.tagline {
-  color: #555;
-  font-size: 1.25em;
-}
-
-.bio, .details, .updates {
-  max-width: 700px;
-  margin: 40px auto;
-}
-
-.feature-image img {
-  width: 100%;
-  max-width: 700px;
-  display: block;
-  margin: 20px auto;
-  border-radius: 8px;
-}
-
-.details ul, .updates ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-footer {
-  text-align: center;
-  margin-top: 60px;
-  font-size: 0.9em;
-  color: #555;
+.bg-photo {
+  margin-top: 30px;
+  max-width: 80%;
+  border-radius: 12px;
 }
