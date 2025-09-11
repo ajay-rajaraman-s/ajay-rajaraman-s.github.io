@@ -66,40 +66,5 @@ header {
   margin-right: auto;
   object-fit: cover; /* crop nicely if needed */
 }
-/* Navigation container */
-.nav-buttons {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
 
-/* Default link style (button look) */
-.nav-buttons a {
-  background: #222;
-  color: white;
-  padding: 12px 28px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* Hover effect */
-.nav-buttons a:hover {
-  background: #444;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-}
-
-/* Active button (highlighted) */
-.nav-buttons a.active {
-  background: #007bff; /* blue highlight */
-  color: white;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
-  pointer-events: none; /* not clickable */
-}
 
